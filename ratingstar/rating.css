@@ -1,0 +1,47 @@
+.playground{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+height:70vh;
+
+   
+
+}
+#stars{
+     margin: auto auto;
+  /* margin-top: auto; */
+ 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.star{
+
+    font-size: 60px;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+ .stars:hover div{
+color: red;
+} 
+.stars:hover{
+    color: black;
+}
+
+.stars div:hover {
+color: red;
+}
+.stars div:hover ~div {
+color:black;
+}
+
+.stars div.active{
+    color: red;
+}

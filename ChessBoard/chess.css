@@ -1,0 +1,43 @@
+#main{
+
+    margin:auto auto;
+    width: 284px;
+    height: 284px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+#chessboard{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.for-row{
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 35px;
+   width: 100%;
+ display: flex;
+   /* border-top: 1px solid black; */
+}
+.squre{
+  width: 35px;
+  font-size: 8px;
+}
+
+.squre-black{
+    color: white;
+  
+    background-color: black;
+
+}
+.squre-white{
+    color: black;
+    width: 35px;
+background-color: white;
+}
+
+.red{
+    background-color: red;
+}
